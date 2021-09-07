@@ -6,11 +6,76 @@ body {
     text-align: center;
 } 
 
+/* --------- Heading */
 .heading {
     text-align: center;
-    font-size: ;
+    padding-right: 75px;
+    font-size: 40pt;
+    margin-top: auto;
 }
 
+/* --------- Logo */
 .logo   {
-   
+  width: auto;
+  padding-right: 10px;
+}
+
+/* --------- Quiz layout */
+.question-area-one  {
+    background-color: rgb(243, 243, 243);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    height: 400px;
+    width: 70%;
+    display: inline-block;
+}
+
+.question-area-two  {
+    background-color: rgb(243, 243, 243);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    height: 400px;
+    width: 70%;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.question-area-three  {
+    background-color: rgb(243, 243, 243);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    height: 400px;
+    width: 70%;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.question-area-four  {
+    background-color: rgb(243, 243, 243);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    height: 400px;
+    width: 70%;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.question-area-five  {
+    background-color: rgb(243, 243, 243);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    height: 400px;
+    width: 70%;
+    margin-top: 50px;
+    display: inline-block;
 }
