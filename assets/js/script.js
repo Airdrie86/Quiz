@@ -24,10 +24,22 @@ function sportGame() {
     choiceButton.classList.add("hide") 
 }
 
-document.getElementById("one").addEventListener("click", myAnswer);
+let one = document.getElementById("one")
+let two = document.getElementById("two")
+let three = document.getElementById("three")
+
+one.addEventListener("click", myAnswer)
+two.addEventListener("click", myAnswer)
+three.addEventListener("click", myAnswer)
 
 function myAnswer() {
-    document.getElementById("one").style.backgroundColor = "green";
+    let correctAnswer = one
+
+    if(correctAnswer) {
+        document.one.style.backgroundColor = "green";
+    }
+
+    
 }
 
 
