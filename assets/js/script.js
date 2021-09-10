@@ -1,4 +1,5 @@
 
+
 let startButton = document.getElementById("start-btn");
 let choiceButton = document.getElementById("choice-box")
 let sportButton = document.getElementById("sport");
@@ -23,13 +24,10 @@ function sportGame() {
     choiceButton.classList.add("hide") 
 }
 
-$(".btn-answer").click( function () {
-    if (this.classList.contains("correct") === true) {
-        this.style.backgroundColor = "green";
-        
-    }   else  {
-            this.style.backgroundColor = "red";
-        }
-});
+document.getElementById("one").addEventListener("click", myAnswer);
 
-});
+function myAnswer() {
+    document.getElementById("one").style.backgroundColor = "green";
+}
+
+
