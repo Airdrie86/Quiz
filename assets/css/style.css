@@ -6,9 +6,9 @@ body {
     align-items: center;
 }
 
-#question-box {
-    width: 300px;
-    height: auto;
+#q-box {
+    width: auto;
+    height: 200px;
     background-color: rgb(248, 247, 247);
     border-radius: 4px;
     padding: 5px 5px;
@@ -16,7 +16,45 @@ body {
     margin-top: 10px;
     
 } 
+#q-box-one {
+    width: auto;
+    height: 200px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 4px;
+    padding: 5px 5px;
+    box-shadow: 0 0 10px 2px;
+    margin-top: 10px;
+}
 
+#q-box-two {
+    width: auto;
+    height: 200px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 4px;
+    padding: 5px 5px;
+    box-shadow: 0 0 10px 2px;
+    margin-top: 10px;
+}
+
+#q-box-three {
+    width: auto;
+    height: 200px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 4px;
+    padding: 5px 5px;
+    box-shadow: 0 0 10px 2px;
+    margin-top: 10px;
+}
+
+#q-box-four {
+    width: auto;
+    height: 200px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 4px;
+    padding: 5px 5px;
+    box-shadow: 0 0 10px 2px;
+    margin-top: 10px;
+}
 
 .answer-btn {
     display: grid;
@@ -24,14 +62,14 @@ body {
     margin: 10px 0;
 }
 
-.btn {
+.btn, .btn-sport {
     border-radius: 5px;
     border: 1px solid;
     box-shadow: 0 0 5px 1px;
     background-color: rgb(126, 210, 213);
     height: 30px;
 }
-.btn:hover {
+.btn, .btn-sport:hover {
     border: none;
 }
 
@@ -48,6 +86,8 @@ body {
     margin-top: 20px;
 }
 
+
+
 .start {
     border-radius: 5px;
     border: 1px solid;
@@ -57,13 +97,7 @@ body {
     margin-top: 10px;
 }
 
-.correct {
-    background: green;
-}
 
-.incorrect {
-    background: red;
-}
 
 .hide {
     display: none;
