@@ -216,38 +216,46 @@ function myGenTwoWrongAnswer() {
     }
 }
 
-ten-one.addEventListener("click", myGenThreeWrongAnswer)
-eleven-one.addEventListener("click", myGenThreeAnswer)
-twelve-one.addEventListener("click", myGenThreeWrongAnswer) 
+let tenOne = document.getElementById("ten-one")
+let elevenOne = document.getElementById("eleven-one")
+let twelveOne = document.getElementById("twelve-one")
+
+tenOne.addEventListener("click", myGenThreeWrongAnswer)
+elevenOne.addEventListener("click", myGenThreeWrongAnswer)
+twelveOne.addEventListener("click", myGenThreeAnswer) 
 
 function myGenThreeAnswer() {
-    document.getElementById("eleven-one").style.backgroundColor = "green"; {
+    document.getElementById("twelve-one").style.backgroundColor = "green"; {
         alert("well done!")
     }
     document.getElementById("ten-one").style.backgroundColor = "red";
-    document.getElementById("twelve-one").style.backgroundColor = "red";
+    document.getElementById("eleven-one").style.backgroundColor = "red";
 }
 function myGenThreeWrongAnswer() {
     document.getElementById("ten-one").style.backgroundColor = "red";
-    document.getElementById("twelve-one").style.backgroundColor = "red"; {
+    document.getElementById("eleven-one").style.backgroundColor = "red"; {
         alert("Unlucky")
     }
-    document.getElementById("eleven-one").style.backgroundColor = "green"; {
+    document.getElementById("twelve-one").style.backgroundColor = "green"; {
     }
 }
 
-thirteen-one.addEventListener("click", myfourWrongAnswer)
-fourteen-one.addEventListener("click", myfourWrongAnswer)
-fifteen-one.addEventListener("click", myfourAnswer) 
+let thirteenOne = document.getElementById("thirteen-one")
+let fourteenOne = document.getElementById("fourteen-one")
+let fifteenOne = document.getElementById("fifteen-one")
 
-function myGenfourAnswer() {
+thirteenOne.addEventListener("click", myGenFourWrongAnswer)
+fourteenOne.addEventListener("click", myGenFourWrongAnswer)
+fifteenOne.addEventListener("click", myGenFourAnswer) 
+
+function myGenFourAnswer() {
     document.getElementById("fifteen-one").style.backgroundColor = "green"; {
         alert("well done!")
     }
     document.getElementById("thirteen-one").style.backgroundColor = "red";
     document.getElementById("fourteen-one").style.backgroundColor = "red";
 }
-function myGenfourWrongAnswer() {
+function myGenFourWrongAnswer() {
     document.getElementById("thirteen-one").style.backgroundColor = "red";
     document.getElementById("fourteen-one").style.backgroundColor = "red"; {
         alert("Unlucky")
