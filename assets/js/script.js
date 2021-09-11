@@ -278,7 +278,8 @@ geoButton.addEventListener("click", geoGame)
 
 function geoGame() {
     geoQuiz.classList.remove("hide")
-    choiceButton.classList.add("hide") 
+    choiceButton.classList.add("hide")
+    
 }
 
 

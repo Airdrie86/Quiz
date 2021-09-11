@@ -1,10 +1,24 @@
 body {
-    background-color: cadetblue;
+    background-image: url("../images/gk.jpg");
     text-align: center;  
     display: flex; 
     justify-content: center;
     align-items: center;
+    color: red;
 }
+
+#welcome {
+    font-size: 2rem;
+    width: auto;
+    height: fit-content;
+    background-color: rgb(248, 247, 247);
+    border-radius: 4px;
+    padding: 5px 5px;
+    box-shadow: 0 0 10px 2px;
+    margin-top: 10px;
+    color: black;
+}
+
 
 
 #q-box {
@@ -15,6 +29,7 @@ body {
     padding: 5px 5px;
     box-shadow: 0 0 10px 2px;
     margin-top: 10px;
+    color: black;
 }
 
 #q-box-gen {
@@ -25,6 +40,7 @@ body {
     padding: 5px 5px;
     box-shadow: 0 0 10px 2px;
     margin-top: 10px;
+    color: black;
 }
 
 #q-box-geo {
@@ -35,6 +51,7 @@ body {
     padding: 5px 5px;
     box-shadow: 0 0 10px 2px;
     margin-top: 10px;
+    color: black;
 }
 
 .answer-btn {
@@ -62,25 +79,38 @@ body {
     border-radius: 5px;
     border: 1px solid;
     box-shadow: 0 0 5px 1px;
-    background-color: rgb(126, 210, 213);
-    height: 30px;
-    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 200px;
+    margin-top: 75px;
+    display: block;
 }
-
 
 
 .start {
     border-radius: 5px;
     border: 1px solid;
     box-shadow: 0 0 5px 1px;
-    background-color: rgb(126, 210, 213);
-    height: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 200px;
     margin-top: 10px;
-}
+}     
 
 
+
+#text-input {
+    width: 85%;
+    background: #FDFCFB;
+    font-family: Poppins, sans-serif;
+    color: #000000;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+  }
 
 .hide {
     display: none;
 }
+
 
