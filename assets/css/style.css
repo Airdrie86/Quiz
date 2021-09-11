@@ -1,3 +1,4 @@
+/* Main CSS ran through all pages*/
 body {
     background-image: url("../images/gk.jpg");
     text-align: center;  
@@ -20,7 +21,7 @@ body {
 }
 
 
-
+/* sport quiz */
 #q-box {
     width: auto;
     height: fit-content;
@@ -32,6 +33,7 @@ body {
     color: black;
 }
 
+/* general knowledge quiz */
 #q-box-gen {
     width: auto;
     height: fit-content;
@@ -43,6 +45,7 @@ body {
     color: black;
 }
 
+/* geography quiz */
 #q-box-geo {
     width: auto;
     height: fit-content;
@@ -53,6 +56,7 @@ body {
     margin-top: 10px;
     color: black;
 }
+
 
 .answer-btn {
     display: grid;
@@ -97,10 +101,19 @@ body {
     margin-top: 10px;
 }     
 
+/* styling font awesome icons */
+.fa-home {
+    color: black;
+}
+.fa-comments {
+    color: black;
+}
 
 
-#text-input {
-    width: 85%;
+#feedback {
+    
+    width: 300px;
+    height: 200px;
     background: #FDFCFB;
     font-family: Poppins, sans-serif;
     color: #000000;
@@ -109,6 +122,27 @@ body {
     border-radius: 5px 0 0 5px;
   }
 
+  #comment {
+      
+      position: relative;
+      top: 150px;
+      right: 200px;
+      
+  }
+
+  .header {
+   
+    font-size: 1rem;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 4px;
+    padding: 5px 5px;
+    box-shadow: 0 0 10px 2px;
+    margin-top: 10px;
+    color: black;
+  }
+/* css for hiding class elements */
 .hide {
     display: none;
 }
