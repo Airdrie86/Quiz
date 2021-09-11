@@ -147,4 +147,12 @@ body {
     display: none;
 }
 
-
+@media screen and (max-width: 400px) {
+    #comment {
+      
+        position: relative;
+        top: 100px;
+        right: 0px;
+        
+    }
+}
