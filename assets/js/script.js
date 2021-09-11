@@ -3,7 +3,7 @@
 let startButton = document.getElementById("start-btn");
 let choiceButton = document.getElementById("choice-box")
 let sportButton = document.getElementById("sport");
-let geographyButton = document.getElementById("geography");
+let geoButton = document.getElementById("geography");
 let generalKnowledgeButton = document.getElementById("general-knowledge");
 let sportQuiz = document.getElementById("sport-quiz")
 let welcome = document.getElementById("welcome");
@@ -144,7 +144,7 @@ function generalKnowledgeGame() {
 
 /*---- General Knowledge Quiz*/
 
-
+/*----- question 1*/
 let oneOne = document.getElementById("one-one")
 let twoOne = document.getElementById("two-one")
 let threeOne = document.getElementById("three-one")
@@ -168,30 +168,32 @@ function myGenWrongAnswer() {
     document.getElementById("one-one").style.backgroundColor = "green";
     }
 
+/*----- question 2 */
 let fourOne = document.getElementById("four-one")
 let fiveOne = document.getElementById("five-one")
 let sixOne = document.getElementById("six-one")
 
 fourOne.addEventListener("click", myGenOneAnswer)
 fiveOne.addEventListener("click", myGenOneWrongAnswer)
-sixOne.addEventListener("click", myGenWrongAnswer) 
+sixOne.addEventListener("click", myGenOneWrongAnswer) 
 
 function myGenOneAnswer() {
     document.getElementById("four-one").style.backgroundColor = "green"; {
         alert("well done!")
     }
-    document.getElementById("six-one").style.backgroundColor = "red";
     document.getElementById("five-one").style.backgroundColor = "red";
+    document.getElementById("six-one").style.backgroundColor = "red";
 }
 function myGenOneWrongAnswer() {
-    document.getElementById("six-one").style.backgroundColor = "red";
-    document.getElementById("five-one").style.backgroundColor = "red"; {
+    document.getElementById("five-one").style.backgroundColor = "red";
+    document.getElementById("six-one").style.backgroundColor = "red"; {
         alert("Unlucky")
     }
     document.getElementById("four-one").style.backgroundColor = "green"; {
     }
 }
 
+/*----- question 3 */
 let sevenOne = document.getElementById("seven-one")
 let eightOne = document.getElementById("eight-one")
 let nineOne = document.getElementById("nine-one")
@@ -263,3 +265,147 @@ function myGenFourWrongAnswer() {
     document.getElementById("fifteen-one").style.backgroundColor = "green"; {
     }
 }
+
+
+
+
+
+/*----Opens Geography Quiz*/
+
+
+let geoQuiz = document.getElementById("geo-quiz")
+geoButton.addEventListener("click", geoGame)
+
+function geoGame() {
+    geoQuiz.classList.remove("hide")
+    choiceButton.classList.add("hide") 
+}
+
+
+/*---- Geography Quiz*/
+
+
+let geoOne = document.getElementById("geo-one")
+let geoTwo = document.getElementById("geo-two")
+let geoThree = document.getElementById("geo-three")
+
+geoOne.addEventListener("click", myGeoAnswer)
+geoTwo.addEventListener("click", myGeoWrongAnswer)
+geoThree.addEventListener("click", myGeoWrongAnswer)
+
+function myGeoAnswer() {
+    document.getElementById("geo-one").style.backgroundColor = "green"; {
+        alert("well done!")
+    }
+    document.getElementById("geo-two").style.backgroundColor = "red";
+    document.getElementById("geo-three").style.backgroundColor = "red";
+}
+function myGeoWrongAnswer() {
+    document.getElementById("geo-two").style.backgroundColor = "red";
+    document.getElementById("geo-three").style.backgroundColor = "red"; {
+        alert("Unlucky")
+    }
+    document.getElementById("geo-one").style.backgroundColor = "green";
+    }
+
+let geoFour = document.getElementById("geo-four")
+let geoFive = document.getElementById("geo-five")
+let geoSix= document.getElementById("geo-six")
+
+geoFour.addEventListener("click", myGeoOneWrongAnswer)
+geoFive.addEventListener("click", myGeoOneWrongAnswer)
+geoSix.addEventListener("click", myGeoOneAnswer) 
+
+function myGeoOneAnswer() {
+    document.getElementById("geo-six").style.backgroundColor = "green"; {
+        alert("well done!")
+    }
+    document.getElementById("geo-four").style.backgroundColor = "red";
+    document.getElementById("geo-five").style.backgroundColor = "red";
+}
+function myGeoOneWrongAnswer() {
+    document.getElementById("geo-four").style.backgroundColor = "red";
+    document.getElementById("geo-five").style.backgroundColor = "red"; {
+        alert("Unlucky")
+    }
+    document.getElementById("geo-six").style.backgroundColor = "green"; {
+    }
+}
+
+let geoSeven = document.getElementById("geo-seven")
+let geoEight = document.getElementById("geo-eight")
+let geoNine = document.getElementById("geo-nine")
+
+geoSeven.addEventListener("click", myGeoTwoAnswer)
+geoEight.addEventListener("click", myGeoTwoWrongAnswer)
+geoNine.addEventListener("click", myGeoTwoWrongAnswer) 
+
+function myGeoTwoAnswer() {
+    document.getElementById("geo-seven").style.backgroundColor = "green"; {
+        alert("well done!")
+    }
+    document.getElementById("geo-eight").style.backgroundColor = "red";
+    document.getElementById("geo-nine").style.backgroundColor = "red";
+}
+function myGeoTwoWrongAnswer() {
+    document.getElementById("geo-eight").style.backgroundColor = "red";
+    document.getElementById("geo-nine").style.backgroundColor = "red"; {
+        alert("Unlucky")
+    }
+    document.getElementById("geo-seven").style.backgroundColor = "green"; {
+    }
+}
+
+let geoTen = document.getElementById("geo-ten")
+let geoEleven = document.getElementById("geo-eleven")
+let geoTwelve = document.getElementById("geo-twelve")
+
+geoTen.addEventListener("click", myGeoThreeWrongAnswer)
+geoEleven.addEventListener("click", myGeoThreeWrongAnswer)
+geoTwelve.addEventListener("click", myGeoThreeAnswer) 
+
+function myGeoThreeAnswer() {
+    document.getElementById("geo-twelve").style.backgroundColor = "green"; {
+        alert("well done!")
+    }
+    document.getElementById("geo-ten").style.backgroundColor = "red";
+    document.getElementById("geo-eleven").style.backgroundColor = "red";
+}
+function myGeoThreeWrongAnswer() {
+    document.getElementById("geo-ten").style.backgroundColor = "red";
+    document.getElementById("geo-eleven").style.backgroundColor = "red"; {
+        alert("Unlucky")
+    }
+    document.getElementById("geo-twelve").style.backgroundColor = "green"; {
+    }
+}
+
+let geoThirteen = document.getElementById("geo-thirteen")
+let geoFourteen = document.getElementById("geo-fourteen")
+let geoFifteen = document.getElementById("geo-fifteen")
+
+geoThirteen.addEventListener("click", myGeoFourWrongAnswer)
+geoFourteen.addEventListener("click", myGeoFourAnswer)
+geoFifteen.addEventListener("click", myGeoFourWrongAnswer) 
+
+function myGeoFourAnswer() {
+    document.getElementById("geo-fourteen").style.backgroundColor = "green"; {
+        alert("well done!")
+    }
+    document.getElementById("geo-thirteen").style.backgroundColor = "red";
+    document.getElementById("geo-fifteen").style.backgroundColor = "red";
+}
+function myGeoFourWrongAnswer() {
+    document.getElementById("geo-thirteen").style.backgroundColor = "red";
+    document.getElementById("geo-fifteen").style.backgroundColor = "red"; {
+        alert("Unlucky")
+    }
+    document.getElementById("geo-fourteen").style.backgroundColor = "green"; {
+    }
+}
+
+
+
+
+
+

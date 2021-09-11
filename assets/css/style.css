@@ -27,6 +27,16 @@ body {
     margin-top: 10px;
 }
 
+#q-box-geo {
+    width: auto;
+    height: fit-content;
+    background-color: rgb(248, 247, 247);
+    border-radius: 4px;
+    padding: 5px 5px;
+    box-shadow: 0 0 10px 2px;
+    margin-top: 10px;
+}
+
 .answer-btn {
     display: grid;
     gap: 15px;
