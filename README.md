@@ -84,7 +84,7 @@ My aim was to make a  Quiz that will catch the eye and hopefully get people to h
 
  The site was deployed to GitHub pages.
 
-    <a href="https://airdrie86.github.io/life-hack-1/" target="_blank" rel="noopener"<a>Click for live link</a>
+    <a href="https://airdrie86.github.io/Quiz/" target="_blank" rel="noopener"<a>Click for live link</a>
 
  
 
