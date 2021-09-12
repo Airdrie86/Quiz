@@ -1,9 +1,13 @@
 
+
 <h2>Online Quiz:</h2>
 
 <p>I have produced an online Quiz page, which gives the user three different categories.
 My aim was to make a  Quiz that will catch the eye and hopefully get people to have fun and enjoy answering the questions<p>
 
+
+ 
+ 
 <h2>Design</h2>
 
 <p>For all of the pages I have kept the same background image. I think that unifority enhance the user experience and produces a striking look. To go along with the background image, I kept all the colours matching(black and white). The only exception was the answers and that was to help them stand out to the user. <p>
@@ -11,7 +15,7 @@ My aim was to make a  Quiz that will catch the eye and hopefully get people to h
 
 <h2>Features:</h2>
 
-<p>All pages have various buttons that return a different actions. <p>
+<p>All pages have various buttons that return a different actions. At the end you have a comment(form) section which lets the user submit feedback. Answering the questions will bring up alert and tell the user if they have been correct/incorrect and what the answe was. <p>
 
 <h2>The landing page image:</h2>
 
