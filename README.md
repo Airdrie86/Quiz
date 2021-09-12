@@ -1,5 +1,5 @@
 
-<h2>Online:</h2>
+<h2>Online Quiz:</h2>
 
 <p>I have produced an online Quiz page, which gives the user three different categories.
 My aim was to make a  Quiz that will catch the eye and hopefully get people to have fun and enjoy answering the questions<p>
